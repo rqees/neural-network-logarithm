@@ -62,33 +62,9 @@ Throughout the training process, the loss is tracked and printed every epoch to 
 
 A summary of the tracked loss is shown below with set.seed(46)
 
-Epoch: 1 Loss: 9.17441 
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeYXZsqcqoAYc3ikC1XqeC7BNk2VRKpo8vorYefg2bfawStNoDDGQQ9ii2RT-sqfZkw4_OuEWInibVMitxXWSwgXtZB40RBnWWT84G3apbcM7N6Koy0Z863-jLHYkUy-RKNDG4xsQ?key=yXk6lC_ZskG_IyNkx6jkhaIC)
 
-Epoch: 2 Loss: 1.14322 
-
-Epoch: 3 Loss: 0.7547635 
-
-Epoch: 4 Loss: 0.5898221 
-
-Epoch: 5 Loss: 0.4801437 
-
-Epoch: 6 Loss: 0.4034436 
-
-Epoch: 7 Loss: 0.3485684 
-
-Epoch: 8 Loss: 0.3083093 
-
-Epoch: 9 Loss: 0.2789323 
-
-Epoch: 10 Loss: 0.2564788 
-
-Epoch: 20 Loss: 0.1656534 
-
-Epoch: 50 Loss: 0.09833049 
-
-Epoch: 100 Loss: 0.07014867
-
-Epoch: 500 Loss: 0.03896615
+Image produced from data by Gemini
 
 I found it surprising that the model was able to adjust for the loss so quickly at the start.
 
