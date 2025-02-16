@@ -64,8 +64,8 @@ A summary of the tracked loss is shown below with set.seed(46)
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeYXZsqcqoAYc3ikC1XqeC7BNk2VRKpo8vorYefg2bfawStNoDDGQQ9ii2RT-sqfZkw4_OuEWInibVMitxXWSwgXtZB40RBnWWT84G3apbcM7N6Koy0Z863-jLHYkUy-RKNDG4xsQ?key=yXk6lC_ZskG_IyNkx6jkhaIC)
 
-_Image produced from data by Gemini
-_
+*Image produced from data by Gemini*
+
 I found it surprising that the model was able to adjust for the loss so quickly at the start.
 
 Testing
@@ -73,31 +73,29 @@ Testing
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXMPpz4IM8Z7WZElJ4G4v2VL2rEPWcmsZDGwJfxK-EplJHrFfueuZQ1dnWm0xTHbnloBc74nWyw_Xsy9G3GkG6X9cBN0spz-Re7_RxRqitr9QkEcq9HeVvatoV50jyKf0sqTROWw?key=yXk6lC_ZskG_IyNkx6jkhaIC)
 
-The mean absolute error is calculated by
+The mean absolute error (MAE) is calculated by:
 
- 1ni=1n|Predicted​i -  Actuali|
+$$\text{MAE} = \frac{1}{n} \sum_{i=1}^{n} \left| \text{Predicted}_i - \text{Actual}_i \right|$$
 
 Where:
 
--   n is the number of data points.
+*   n is the number of data points.
+*   Predicted<sub>i</sub> is the predicted value for the i-th data point.
+*   Actual<sub>i</sub> is the actual value for the i-th data point.
 
--   Predicted​i  is the predicted value for the i-th data point.
+From the above tested dataset, the mean absolute error is 0.0434, which is quite impressive for such a basic model.
 
--   Actuali​ is the actual value for the i-th data point.
+The model, however, struggles with values that are significantly different from its trained data, such as very large and small numbers.
 
-From the above tested data set, the mean absolute error is 0.0434, which is quite impressive for such a basic model.
+For example:
 
-The model however struggles with values which are significantly different from its trained data such as very large and small numbers. 
+| Test Value | Predicted Log | Actual Log |
+|---|---|---|
+| 500 | 5.530542 | 6.214608 |
 
-For example,
+Where the percent error is approximately 11.04%, calculated by:
 
-TestValue PredictedLog ActualLog
-
-1       500     5.530542  6.214608
-
-Where the percent error is approximately 11.04% calculated by
-
-|Predicted-ActualActual| ​​×100
+$$\text{Percent Error} = \left( \frac{|\text{Predicted} - \text{Actual}|}{\text{Actual}} \right) \times 100$$
 
 Conclusion
 ----------
