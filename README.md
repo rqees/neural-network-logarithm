@@ -1,7 +1,7 @@
 # neural-network-logarithm
 A neural network which can solve logarithms! I created this project for a first-year computational biology class (CSB195) at UofT. The report created for this project is below.
 
-Report 2
+Report
 ========
 
 Authors: Raees Kabir [✉](mailto:r.kabir@mail.utoronto.ca) , ChatGPT-4o
@@ -67,7 +67,7 @@ A summary of the tracked loss is shown below with set.seed(46)
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeYXZsqcqoAYc3ikC1XqeC7BNk2VRKpo8vorYefg2bfawStNoDDGQQ9ii2RT-sqfZkw4_OuEWInibVMitxXWSwgXtZB40RBnWWT84G3apbcM7N6Koy0Z863-jLHYkUy-RKNDG4xsQ?key=yXk6lC_ZskG_IyNkx6jkhaIC)
 
-*Image produced from data by Gemini*
+###### Image produced from data by Gemini
 
 I found it surprising that the model was able to adjust for the loss so quickly at the start.
 
