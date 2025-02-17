@@ -74,7 +74,7 @@ I found it surprising that the model was able to adjust for the loss so quickly 
 Testing
 -------
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXMPpz4IM8Z7WZElJ4G4v2VL2rEPWcmsZDGwJfxK-EplJHrFfueuZQ1dnWm0xTHbnloBc74nWyw_Xsy9G3GkG6X9cBN0spz-Re7_RxRqitr9QkEcq9HeVvatoV50jyKf0sqTROWw?key=yXk6lC_ZskG_IyNkx6jkhaIC)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXerLAWTuNsFQIVfd3jm0GfxKlvJzqsyD3lX-kI7tNrLVI3-ySN-Cd7RB-PpkfPh391aIeGmurfO1jj72rNgvEGByNJ5Qj_jQBbkvJW53hgV_jlTY2qFR3XSBkVmMXhmDHHV1bgM?key=yXk6lC_ZskG_IyNkx6jkhaIC)
 
 The mean absolute error (MAE) is calculated by:
 
