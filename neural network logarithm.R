@@ -130,13 +130,11 @@ for (epoch in 1:epochs) {
   }
 }
 
-testData <- seq(0.01, 100, length.out = 100)
+testData <- seq(0.1, 70, by=0.6)
+actualLog <- log(testData)
 
 testPredictions <- sapply(testData, function(x) forward(matrix(x, nrow = inputSize))$output)
 
-actualLog <- log(testData)
-
-# Plot input vs. predicted log
 plot(testData, actualLog, type = "l", col = "blue", lwd = 2, ylab = "Log Value", xlab = "Input", main = "Predicted vs. Actual Log")
 points(testData, testPredictions, col = "red", pch = 16)
 legend("topleft", legend = c("Actual Log", "Predicted Log"),
