@@ -1,14 +1,5 @@
 # neural-network-logarithm
-A neural network which can solve logarithms! I created this project for a first-year computational biology class (CSB195) at UofT. The report created for this project is below.
-
-Report
-========
-
-Authors: Raees Kabir [✉](mailto:r.kabir@mail.utoronto.ca) , ChatGPT-4o
-
-11 November 2024
-
-CSB195
+A neural network which can solve logarithms!
 
 Objective
 ---------
@@ -104,14 +95,5 @@ Conclusion
 ----------
 
 The neural network successfully approximates the natural logarithm function, achieving a Mean Absolute Error (MAE) of 0.0434 on test data. The model performed well for values within the training range, but struggled with extreme values, showing a percent error of 11.04% for x = 500. While the model is effective for typical inputs, expanding the training data range could improve generalization to out-of-range values.
-
-Appendix 1: ChatGPT Conversation
---------------------------------
-
-<https://chatgpt.com/share/67344e59-30c4-8001-b5cc-cd6a15bd05f2>
-
-<https://chatgpt.com/share/67344e22-45c8-8001-9bd1-404ab9d10f69>
-
-<https://chatgpt.com/share/67344d62-5804-8003-ab1e-ceab373f6cb7>
 
 [END]
