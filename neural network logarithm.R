@@ -1,11 +1,5 @@
-# Date:    2024-11-13
-# Author:  r.kabir@mail.utoronto.ca; ChatGPT-4o
-# ==============================================================================
-
-# Set random seed for reproducibility
 set.seed(46)
 
-# Define the network structure
 inputSize <- 1    # One input (x value)
 hiddenSize1 <- 100  # First hidden layer size
 hiddenSize2 <- 50   # Second hidden layer size
